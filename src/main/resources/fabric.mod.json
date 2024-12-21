@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "keystrokes",
+  "version": "${version}",
+  "name": "Keystrokes",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/keystrokes/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "you.yuli.keystrokes.Keystrokes"
+    ]
+  },
+  "mixins": [
+    "keystrokes.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
